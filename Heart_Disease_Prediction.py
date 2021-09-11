@@ -21,7 +21,7 @@ from sklearn.metrics import accuracy_score;
 from sklearn.metrics import confusion_matrix;
 
 
-#dicstionary to store the accuracies
+#dictionary to store the accuracies
 acc = {};
 
 pathname = input("Enter the path to the dataset: ");
