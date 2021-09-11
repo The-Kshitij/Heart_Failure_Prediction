@@ -13,4 +13,4 @@ Fit the scaler using training values and then apply this scale to both training 
 Use the various algos to predict the result and check the accuracy.
 
 Output:
-I had the best accuracy using support vector classification with rbf kernel.
+I had the best accuracy using support vector classification with rbf kernel.(91.3%)
