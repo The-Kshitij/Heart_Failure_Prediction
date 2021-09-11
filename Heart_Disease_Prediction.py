@@ -24,7 +24,9 @@ from sklearn.metrics import confusion_matrix;
 #dicstionary to store the accuracies
 acc = {};
 
-dataset = pd.read_csv("D:\StudyMat\Datasets\heart.csv");
+pathname = input("Enter the path to the dataset: ");
+dataset = pd.read_csv(pathname);
+
 
 #storing the dependent and independent variables
 x = dataset.iloc[:,:-1].values;
