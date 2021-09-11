@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Sep 11 09:16:50 2021
 
 @author: Kshitij
 """
@@ -109,4 +108,4 @@ acc[s] = result;
 #print(confusion_matrix(y_test,rf_pred));
 
 
-print("Winner winner chicker dinner: {}".format(acc[max(acc)]));
+print("Winner winner chicken dinner: {}".format(acc[max(acc)]));
